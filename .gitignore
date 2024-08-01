@@ -2,3 +2,4 @@ cryptography-challenge/
 __pycache__/
 *.pyc
 *.pyo
+.vscode/
