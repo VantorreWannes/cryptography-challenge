@@ -1,3 +1,3 @@
-from .RandBloatEncoder import SimpleEncoder
+from .RandBloatEncoder import SimpleEncoder, OffsetEncoder
 
-__all__ = ["SimpleEncoder"]
+__all__ = ["SimpleEncoder", "OffsetEncoder"]
