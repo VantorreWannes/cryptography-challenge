@@ -1,4 +1,4 @@
-from src.RandBloatEncoder import SimpleEncoder
+from src import SimpleEncoder
 
 def test_encode_bytes():
     MESSAGE = bytes([0, 1, 2, 3])
