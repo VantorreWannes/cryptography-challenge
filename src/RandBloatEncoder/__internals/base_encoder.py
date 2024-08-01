@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-class AdvancedEncoder(ABC):
+class BaseEncoder(ABC):
 
     @abstractmethod
     def encodeBytes(self, message: bytes) -> bytes:
@@ -17,7 +17,6 @@ class AdvancedEncoder(ABC):
     def decodeString(self, encoded_message: bytes) -> str:
         decoded_message: bytes = self.decodeBytes(encoded_message)
         return decoded_message.decode('utf-8')
-    
 
 if __name__ == '__main__':
     pass
