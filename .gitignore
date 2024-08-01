@@ -1,1 +1,4 @@
-cryptography-challenge
+cryptography-challenge/
+__pycache__/
+*.pyc
+*.pyo
